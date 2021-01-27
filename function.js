@@ -43,6 +43,9 @@ function aboutClicked() {
   document.getElementById("nav").classList.remove("nav-links-active");
   document.getElementById("nav").classList.add("nav-links");
   count++;
+  document.getElementById("about-click").style.color = "aqua";
+  document.getElementById("hobby-click").style.color = "white";
+  document.getElementById("skill-click").style.color = "white";
 }
 
 function hobbyClicked() {
@@ -54,6 +57,24 @@ function hobbyClicked() {
   c.classList.remove("my-skills-active");
   document.getElementById("nav").classList.remove("nav-links-active");
   document.getElementById("nav").classList.add("nav-links");
+  count++;
+  document.getElementById("about-click").style.color = "white";
+  document.getElementById("hobby-click").style.color = "aqua";
+  document.getElementById("skill-click").style.color = "white";
+}
+
+function skillClicked() {
+  a.classList.add("about-me-inactive");
+  a.classList.remove("about-me-active");
+  b.classList.add("my-hobbies-inactive");
+  b.classList.remove("my-hobbies-active");
+  c.classList.add("my-skills-active");
+  c.classList.remove("my-skills-inactive");
+  document.getElementById("nav").classList.remove("nav-links-active");
+  document.getElementById("nav").classList.add("nav-links");
+  document.getElementById("about-click").style.color = "white";
+  document.getElementById("hobby-click").style.color = "white";
+  document.getElementById("skill-click").style.color = "aqua";
   count++;
 }
 
