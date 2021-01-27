@@ -15,17 +15,18 @@ body{
     flex-direction: row;
     top: 2rem;
 }
-.nav-header{
-    margin-right: 17rem;
-    text-decoration: none;
-    color: azure;
-}
+
 .nav-link{
   margin-right: 3rem;
   text-decoration: none;
   color: aliceblue;
 }
-
+.nav-headers{
+    color: #ff7b54;
+    margin-left: 10px;
+    font-family: 'Yusei Magic', sans-serif;
+    text-decoration: none;
+}
 .icon{
     display: none;
     visibility: hidden;
